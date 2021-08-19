@@ -2,6 +2,8 @@
   "name": "template-web-api",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": "git@github.com:luanyata/template-node-web-api.git",
+  "author": "Luan Lima <luan@yata.dev>",
   "scripts": {
     "dev:server": "ts-node-dev -r tsconfig-paths/register  --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },

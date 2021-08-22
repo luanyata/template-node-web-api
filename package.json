@@ -5,7 +5,8 @@
   "repository": "git@github.com:luanyata/template-node-web-api.git",
   "author": "Luan Lima <luan@yata.dev>",
   "scripts": {
-    "dev:server": "ts-node-dev -r tsconfig-paths/register  --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    "dev:server": "ts-node-dev -r tsconfig-paths/register  --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files"
   },
   "dependencies": {
     "cors": "^2.8.5",
